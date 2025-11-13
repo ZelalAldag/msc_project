@@ -11,8 +11,13 @@
 
 ## Getting Started
 
-### Installing requirements
+### Create and activate a virtual environment
+
+Create the virtual environment and activate in the bash terminal. Then install the requirements.
+
 ```bash
+python3 -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
@@ -20,7 +25,7 @@ pip install -r requirements.txt
 Open any notebook in Jupyter and run cells sequentially to explore the data and findings. Or run the `python data_exploration.py` in the terminal to merge datasets.
 
 ## Data
-Input data files are in the `Powers/` and `PhaseVoltages` directories.
+Input data files are in the `Powers/` and `PhaseVoltages/` directories.
 
 ## Results
-Generated visualizations and output CSVs are saved in the `visualizations/` and `processed_data` directories respectively.
+Generated visualizations and output CSVs are saved in the `visualizations/` and `processed_data/` directories respectively.
