@@ -1,4 +1,9 @@
+# Data files
 /Powers
 /PhaseVoltages
+/processed_data
+/visualizations
 
+# Environment files
 Manifest*.toml
+.venv/
